@@ -1,0 +1,34 @@
+{
+
+  "name": "gossamer/neith",
+  "type": "library",
+  "description": "php logging",
+  "keywords": [
+    "php",
+    "logging",
+    "gossamer"
+  ],
+  "homepage": "https://github.com/dmeikle/neith",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Meikle",
+      "email": "david@quantumunit.com",
+      "homepage": "http://www.quantumunit.com",
+      "role": "Developer"
+
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "monolog/monolog": "1.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Gossamer\\Set": "src/"
+    }
+  }
+}
