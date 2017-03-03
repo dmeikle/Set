@@ -1,14 +1,15 @@
 {
 
-  "name": "gossamer/neith",
+  "name": "gossamer/set",
   "type": "library",
-  "description": "php logging",
+  "description": "php container utility",
   "keywords": [
     "php",
-    "logging",
+    "container",
+    "dependency injection",
     "gossamer"
   ],
-  "homepage": "https://github.com/dmeikle/neith",
+  "homepage": "https://github.com/dmeikle/set",
   "license": "MIT",
   "authors": [
     {
