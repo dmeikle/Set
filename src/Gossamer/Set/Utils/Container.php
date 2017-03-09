@@ -24,6 +24,9 @@ class Container
 
     private $directory = array();
 
+    /**
+     * remove all items from memory
+     */
     public function __destruct() {
         while (count($this->directory) > 0) {
             try {
@@ -35,6 +38,11 @@ class Container
         }
     }
 
+    /**
+     * @param $key
+     * @return mixed
+     * @throws ObjectNotFoundException
+     */
     public function get($key) {
 
         if (!array_key_exists($key, $this->directory)) {
@@ -45,7 +53,11 @@ class Container
     }
 
 
-    public function set($key, $object) {
+    /**
+     * @param $key
+     * @param $object
+     */
+    public function set($key, &$object) {
         $this->directory[$key] = $object;
     }
 }
