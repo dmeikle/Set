@@ -15,7 +15,7 @@
  * Time: 12:32 AM
  */
 
-namespace Gossamer\Set\Exceptions;
+namespace Gossamer\Set\Utils\Exceptions;
 
 
 class ObjectNotFoundException extends \Exception
