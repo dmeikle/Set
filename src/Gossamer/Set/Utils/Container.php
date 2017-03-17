@@ -17,7 +17,7 @@
 
 namespace Gossamer\Set\Utils;
 
-use Gossamer\Set\Exceptions\ObjectNotFoundException;
+use Gossamer\Set\Utils\Exceptions\ObjectNotFoundException;
 
 class Container 
 {
